@@ -8,8 +8,9 @@ export default function Project(props) {
             </div>
 
             <div className="flex flex-col p-4 leading-normal">
-                <h5 className="mb-2 text-4xl font-bold tracking-tight text-gray-900">{props.title}</h5>
+                <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900">{props.title}</h5>
                 <p className="my-3 text-xl text-gray-700">{props.desc}</p>
+                <p className="my-3 text-l text-gray-700">Skills: {props.skills}</p>
             </div>
         </div>
     );
